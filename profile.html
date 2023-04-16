@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header class="head">
+        <div>
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+            </nav>
+        </div>
+           </header>
+
+        <div>
+            <div class="srch" >
+              <input type="text" placeholder="Search by name" id="Search" required>
+            </div>
+            <div id="cross" onclick="c()">
+              <img src="images/x.png">
+          </div>
+        <div id="sb" > 
+            <img onclick="find()" src="images/Icons.png">
+        </div>
+               <span id="chk"></span>
+        </div>
+
+        <div class="b">
+            <div>
+             <img src="images/Team Member 1.png">
+             <h5>Sara Tapina</h5>
+             <div class="listing">
+                <img src="images/mail.png" alt="mail">
+                <img src="images/loc.png" alt="location" style="height: 28px; width-right:40px">
+                <img src="images/ru.png" alt="cost">
+            <div class="details">
+                <ul>
+                    <li>sara@example.com</li>
+                    <li>Mexico</li>
+                    <li>10000</li>
+                </ul>
+            </div>
+             </div>
+            </div>
+        </div>
+        <div class="cal">
+            <div></div>
+               <form id="clr">
+                <input type="text" id="ex" placeholder="Expense" required>
+                <input type="text" id="am" placeholder="Amount" required>
+                <img src="images/Send button.png" onclick="addelement()" alt="Add">
+               </form>   
+               <span id="check"></span>     
+        </div>
+        <div id="insert">
+            <div class="in" >
+                <h5>Total Salary</h5>
+                <p>:</p>
+                <h6>₹10000</h6>
+            </div>
+        </div>
+        <div class="tracker">
+            <h6>Tracker</h6>
+           </div>
+           <hr>
+          <div class="page">
+            <div class="list">
+                <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                </ul>
+           </div>
+           <div class="cpy">
+                 <p>© 2022 Tracker. All rights reserved.</p>
+           </div>
+        </div>
+        <script src="profile.js"></script>
+</body>
+</html>
